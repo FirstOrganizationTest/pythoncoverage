@@ -1,0 +1,6 @@
+projectKey=patch_diff_test3
+serverUrl=https://ru-sq97.ngrok.io
+serverVersion=9.7.1.62043
+dashboardUrl=https://ru-sq97.ngrok.io/dashboard?id=patch_diff_test3
+ceTaskId=AYSfB2xBp5gUqVt1xDKN
+ceTaskUrl=https://ru-sq97.ngrok.io/api/ce/task?id=AYSfB2xBp5gUqVt1xDKN
