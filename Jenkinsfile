@@ -2,11 +2,11 @@ node {
         stage('SCM') {
                 checkout scm
         }
-	sh echo "Checkout completed"
+	echo 'Checkout completed'
         stage('SQ-99') {
                 def scannerHome = tool 'CLI';
                 withSonarQubeEnv('My SonarQube Server') {
-			sh echo "Inside sonarQube environment"
+			echo 'Inside sonarQube environment'
                         sh "${scannerHome}/bin/sonar-scanner"
                 }
         }
