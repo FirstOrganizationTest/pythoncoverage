@@ -6,7 +6,7 @@ node {
         stage('SQ-99') {
                 def scannerHome = tool 'CLI';
                 withSonarQubeEnv('SQ-99') {
-			sh "${scannerHome}/bin/sonar-scanner"
+			sh "${scannerHome}/bin/sonar-scanner -Dsonar.verbose=true"
                 }
         }
 }
